@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Shoe Heaven </title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>My Shoe Heaven</h1>
+      <a href="checkout.html" class="btn">Added to Cart</a>
+  </header>
+
+  <main> 
+
+  <h2>"Welcome to My Shoe Heaven"</h2>
+    <div class="product-grid">
+      <div class="product-card">
+      <img src="https://th.bing.com/th/id/OIP.XDlSuOCRDjjf9M254KYGoAHaFP?w=269&h=191&c=7&r=0&o=7&pid=1.7&rm=3=" alt="Shoe 1" />
+      <h3>New Balance</h3>
+      <p>KES.5500</p>
+      <button class="add-to-cart" data-name="New Balance" data-price="5500">Add to Cart</button>
+    </div>
+    <div class="product-card"> 
+        <img src="https://th.bing.com/th/id/OIP.uS3HRTCiHnv_8IA8ln6EEQHaFM?w=260&h=182&c=7&r=0&o=7&pid=1.7&rm=3" alt="Shoe 2"/>
+        <h3>Corteiz</h3>
+        <p>KES.5000</p>
+        <button class="add-to-cart" data-name="Corteiz" data-price="5000" >Add to Cart</button>
+    </div>
+    <div class ="product-card">
+        <img src="https://th.bing.com/th?q=Adidas+Samba+Baby+Blue&w=120&h=120&c=1&rs=1&qlt=70&o=7&cb=1&pid=InlineBlock&rm=3&mkt=en-WW&cc=KE&setlang=en&adlt=moderate&t=1&mw=247" alt="Shoe 3" />
+        <h3>Adidas Sambas</h3>
+        <p>Ksh.3500</p>
+        <button class="add-to-cart" data-name="Adidas Samba" data-price="3500">Add to Cart</button>
+     </div>
+
+     <div id="cart">
+      <h2>Shopping Cart</h2>
+      <ul id="cart-items"></ul>
+      <p id="cart-total">Total:KES 0</p>
+      <button id="checkout-btn">Checkout</button>
+    
+     </div>
+    
+
+  <footer>
+    <p>&copy; 2025 My Shoe Heaven</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
